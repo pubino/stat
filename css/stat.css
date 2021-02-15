@@ -69,6 +69,7 @@
 }
 #menubar .menu--main a {
   color: #7A8090;
+  font-weight: bold;
 }
 #menubar .menu--main .content, #menubar .menu--administrative-menu .content {
   margin: 0.5em 0 0.5em 0;

@@ -2,6 +2,7 @@ $menu-link-color: #7A8090;
 $menu-bg-color: white;
 $hdr-bg-color: initial;
 $hdr-bg-image: initial;
+$menu-font-weight: bold;
 
 #header {
 
@@ -83,6 +84,7 @@ $hdr-bg-image: initial;
 		background-color: $menu-bg-color;
 		a {
 			color: $menu-link-color;
+			font-weight: $menu-font-weight;
 		}
 	}
 
