@@ -11,6 +11,7 @@
 #header .region-header .site-branding {
   display: flex;
   align-items: center;
+  flex-flow: column;
 }
 @media only screen and (max-width: 600px) {
   #header .region-header {
@@ -41,6 +42,9 @@
 }
 #header .site-branding__name {
   font-size: 2.25em;
+}
+#header .site-branding__slogan {
+  color: black;
 }
 
 #menubar .region-menubar {
