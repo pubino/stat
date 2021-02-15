@@ -59,6 +59,10 @@ $menu-font-weight: bold;
 	
 	.site-branding__slogan {
 		color: $site-slogan-color;
+		font-variant: small-caps;
+		font-family: 'Georgia';
+		text-transform: uppercase;
+		font-style: unset;
 	}
 
 	

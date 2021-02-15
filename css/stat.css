@@ -45,6 +45,10 @@
 }
 #header .site-branding__slogan {
   color: black;
+  font-variant: small-caps;
+  font-family: "Georgia";
+  text-transform: uppercase;
+  font-style: unset;
 }
 
 #menubar .region-menubar {
