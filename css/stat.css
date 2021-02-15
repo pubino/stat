@@ -1,0 +1,77 @@
+#header {
+  background-color: initial;
+  background-image: initial;
+}
+#header .region-header {
+  padding: 1em;
+}
+#header .region-header .block {
+  margin: 0;
+}
+#header .region-header .site-branding {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  #header .region-header {
+    display: flex;
+    justify-content: center;
+  }
+  #header .region-header .site-branding {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+#header .site-branding__text {
+  margin-bottom: 0;
+  padding: 0;
+}
+#header .site-branding__text a {
+  color: black;
+}
+#header .site-branding__logo {
+  margin: 0 1em 0 0;
+}
+@media only screen and (max-width: 600px) {
+  #header .site-branding__logo {
+    margin: 0;
+  }
+}
+#header .site-branding__name {
+  font-size: 2.25em;
+}
+
+#menubar .region-menubar {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#menubar .block-menu {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+#menubar .block-menu ul {
+  text-align: center;
+}
+#menubar .block-menu ul.menu {
+  padding: 0;
+}
+#menubar .block-menu ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.5em;
+}
+#menubar .menu--main {
+  background-color: white;
+}
+#menubar .menu--main a {
+  color: #7A8090;
+}
+#menubar .menu--main .content, #menubar .menu--administrative-menu .content {
+  margin: 0.5em 0 0.5em 0;
+}
+
+/*# sourceMappingURL=stat.css.map */

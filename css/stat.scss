@@ -1,0 +1,94 @@
+$menu-link-color: #7A8090;
+$menu-bg-color: white;
+$hdr-bg-color: initial;
+$hdr-bg-image: initial;
+
+#header {
+
+	background-color: $hdr-bg-color;
+	background-image: $hdr-bg-image;
+
+	.region-header {
+		padding: 1em;
+		.block {
+			margin: 0;
+		}
+		.site-branding {
+			display: flex;
+			align-items: center;
+		}	
+	}
+
+	@media only screen and (max-width: 600px) {
+	.region-header {
+		display: flex;
+		justify-content: center;
+	}
+	.region-header .site-branding {
+		
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			text-align: center;
+			
+		}
+	}
+
+	.site-branding__text {
+		margin-bottom: 0;
+		padding: 0; 
+		a {
+			color: black;
+		}
+	}
+	
+	.site-branding__logo {
+		margin: 0 1em 0 0;
+		@media only screen and (max-width: 600px) {
+			margin: 0;
+		}
+		
+	}
+
+	.site-branding__name {
+		font-size: 2.25em;
+	}
+
+	
+}
+
+#menubar {
+	.region-menubar {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		}
+	.block-menu {
+		display: flex;
+		justify-content: right;
+		width: 100%;
+			ul {
+				text-align: center;
+			}
+			ul.menu {
+				padding: 0;
+			}
+			ul li {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0.5em;
+			}
+		}
+	.menu--main {
+		background-color: $menu-bg-color;
+		a {
+			color: $menu-link-color;
+		}
+	}
+
+	.menu--main, .menu--administrative-menu {
+		.content {
+			margin: 0.5em 0 0.5em 0;
+		}
+	}
+}
