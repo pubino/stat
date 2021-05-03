@@ -58,7 +58,6 @@
 }
 #menubar .block-menu {
   display: flex;
-  justify-content: flex-end;
   width: 100%;
 }
 #menubar .block-menu ul {
