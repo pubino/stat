@@ -82,4 +82,12 @@
   margin: 0.5em 0 0.5em 0;
 }
 
+.member-photo {
+  float: left;
+}
+
+.member-info {
+  clear: both;
+}
+
 /*# sourceMappingURL=stat.css.map */
