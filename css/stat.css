@@ -84,6 +84,7 @@
 
 .member-photo {
   float: left;
+  padding: 0 1em 0 1em;
 }
 
 .member-info {
